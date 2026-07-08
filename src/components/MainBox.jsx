@@ -28,6 +28,8 @@ const MainBox = () => {
     console.log(data.items);
 
     setState(data.items);
+
+    console.log(import.meta.env.VITE_YOUTUBE_API_KEY);
   }
 
   useEffect(() => {
