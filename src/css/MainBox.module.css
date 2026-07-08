@@ -1,0 +1,29 @@
+.main{
+    /* border: solid; */
+    background-color: rgb(15, 1, 1);
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    color:white;
+}
+
+.article{
+    height: 400px;
+    width: 400px;
+    border: solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+
+}
+
+.article div img{
+    height: 250px;
+    width: 380px;
+    border-radius: 50px;
+
+}
