@@ -1,16 +1,42 @@
-# React + Vite
+# YouTube Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive YouTube Clone built with React and Vite, powered by the YouTube Data API v3.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [youtube-clone-7scs.vercel.app](https://youtube-clone-7scs.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Fetches real-time trending videos using the YouTube Data API v3
+- Collapsible sidebar navigation
+- Responsive navbar with search bar
+- Video thumbnails, titles, and channel details
+- Video player page with React Router
 
-## React Compiler
+## Tech Stack
+- React
+- Vite
+- React Router
+- YouTube Data API v3
+- CSS Modules
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the ESLint configuration
+1. Clone the repo
+```bash
+   git clone https://github.com/Saiekal/Youtube-Clone.git
+   cd Youtube-Clone
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Install dependencies
+```bash
+   npm install
+```
+
+3. Create a `.env` file in the root directory and add your YouTube Data API key
+
+4. Run the development server
+```bash
+   npm run dev
+```
+
+## Deployment
+Deployed on [Vercel](https://vercel.com). Note: if deploying your own copy, make sure to add `VITE_YOUTUBE_API_KEY` under your Vercel project's **Settings → Environment Variables**, then redeploy.
