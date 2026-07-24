@@ -39,4 +39,4 @@ A responsive YouTube Clone built with React and Vite, powered by the YouTube Dat
 ```
 
 ## Deployment
-Deployed on [Vercel](https://vercel.com). Note: if deploying your own copy, make sure to add `VITE_YOUTUBE_API_KEY` under your Vercel project's **Settings → Environment Variables**, then redeploy.
+Deployed on [Vercel](https://vercel.com)
